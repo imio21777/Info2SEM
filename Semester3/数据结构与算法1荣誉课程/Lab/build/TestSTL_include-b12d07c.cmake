@@ -1,0 +1,5 @@
+if(EXISTS "/Users/0ximio/Desktop/Lab1/mylab/build/TestSTL_tests-b12d07c.cmake")
+  include("/Users/0ximio/Desktop/Lab1/mylab/build/TestSTL_tests-b12d07c.cmake")
+else()
+  add_test(TestSTL_NOT_BUILT-b12d07c TestSTL_NOT_BUILT-b12d07c)
+endif()

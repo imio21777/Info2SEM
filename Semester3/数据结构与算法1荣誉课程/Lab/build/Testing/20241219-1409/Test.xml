@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20241219-1409-Experimental"
+	Name="0xleapdeMacBook-Air-6.local"
+	Generator="ctest-3.31.2"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="16.0.0.16000026"
+	OSName="macOS"
+	Hostname="0xleapdeMacBook-Air-6.local"
+	OSRelease="15.1"
+	OSVersion="24B83"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M3"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="7168"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Dec 19 22:09 CST</StartDateTime>
+		<StartTestTime>1734617350</StartTestTime>
+		<TestList/>
+		<EndDateTime>Dec 19 22:09 CST</EndDateTime>
+		<EndTestTime>1734617350</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,638 @@
+[
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/miniSTL/include/miniSTL/.. -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/TestSTL.dir/test/test_list.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/test/test_list.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/test/test_list.cpp",
+  "output": "CMakeFiles/TestSTL.dir/test/test_list.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/miniSTL/include/miniSTL/.. -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/TestSTL.dir/test/test_vector.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/test/test_vector.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/test/test_vector.cpp",
+  "output": "CMakeFiles/TestSTL.dir/test/test_vector.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/benchmark/catch_chronometer.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/benchmark/catch_chronometer.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/benchmark/detail/catch_benchmark_function.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/benchmark/detail/catch_benchmark_function.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/benchmark/detail/catch_run_for_at_least.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/benchmark/detail/catch_run_for_at_least.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/benchmark/detail/catch_stats.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/benchmark/detail/catch_stats.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/generators/catch_generator_exception.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/generators/catch_generator_exception.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/generators/catch_generators.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/generators/catch_generators.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/generators/catch_generators_random.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/generators/catch_generators_random.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_automake.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_automake.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_common_base.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_common_base.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_compact.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_compact.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_console.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_console.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_cumulative_base.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_cumulative_base.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_event_listener.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_event_listener.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_helpers.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_helpers.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_junit.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_junit.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_multi.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_multi.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_registrars.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_registrars.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_sonarqube.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_sonarqube.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_streaming_base.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_streaming_base.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_tap.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_tap.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_teamcity.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_teamcity.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_xml.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/reporters/catch_reporter_xml.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_capture.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_capture.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_config.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_config.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_exception.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_exception.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_generatortracker.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_generatortracker.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_registry_hub.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_registry_hub.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_reporter.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_reporter.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_testcase.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/interfaces/catch_interfaces_testcase.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_approx.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_approx.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_assertion_result.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_assertion_result.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_config.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_config.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_get_random_seed.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_get_random_seed.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_message.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_message.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_registry_hub.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_registry_hub.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_session.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_session.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_tag_alias_autoregistrar.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_tag_alias_autoregistrar.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_test_case_info.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_test_case_info.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_test_spec.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_test_spec.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_timer.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_timer.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_tostring.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_tostring.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_totals.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_totals.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_translate_exception.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_translate_exception.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_version.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/catch_version.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_assertion_handler.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_assertion_handler.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_case_insensitive_comparisons.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_case_insensitive_comparisons.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_clara.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_clara.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_commandline.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_commandline.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_console_colour.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_console_colour.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_context.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_context.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_debug_console.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_debug_console.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_debugger.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_debugger.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_decomposer.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_decomposer.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_enforce.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_enforce.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_enum_values_registry.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_enum_values_registry.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_errno_guard.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_errno_guard.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_exception_translator_registry.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_exception_translator_registry.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_fatal_condition_handler.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_fatal_condition_handler.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_floating_point_helpers.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_floating_point_helpers.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_getenv.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_getenv.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_istream.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_istream.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_lazy_expr.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_lazy_expr.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_leak_detector.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_leak_detector.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_list.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_list.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_message_info.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_message_info.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_output_redirect.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_output_redirect.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_parse_numbers.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_parse_numbers.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_polyfills.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_polyfills.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_random_number_generator.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_random_number_generator.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_random_seed_generation.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_random_seed_generation.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_reporter_registry.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_reporter_registry.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_reporter_spec_parser.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_reporter_spec_parser.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_result_type.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_result_type.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_reusable_string_stream.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_reusable_string_stream.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_run_context.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_run_context.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_section.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_section.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_singletons.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_singletons.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_source_line_info.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_source_line_info.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_startup_exception_registry.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_startup_exception_registry.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_stdstreams.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_stdstreams.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_string_manip.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_string_manip.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_stringref.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_stringref.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_tag_alias_registry.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_tag_alias_registry.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_case_info_hasher.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_case_info_hasher.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_case_registry_impl.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_case_registry_impl.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_case_tracker.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_case_tracker.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_failure_exception.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_failure_exception.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_registry.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_registry.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_spec_parser.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_test_spec_parser.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_textflow.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_textflow.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_uncaught_exceptions.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_uncaught_exceptions.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_wildcard_pattern.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_wildcard_pattern.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_xmlwriter.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_xmlwriter.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_container_properties.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_container_properties.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_exception.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_exception.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_floating_point.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_floating_point.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_predicate.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_predicate.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_quantifiers.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_quantifiers.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_string.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_string.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_templated.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/catch_matchers_templated.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/internal/catch_matchers_impl.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/matchers/internal/catch_matchers_impl.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o"
+},
+{
+  "directory": "/Users/0ximio/Desktop/Lab1/mylab/build",
+  "command": "/usr/bin/clang++ -I/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/.. -I/Users/0ximio/Desktop/Lab1/mylab/build/Catch2/generated-includes -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -ffile-prefix-map=/Users/0ximio/Desktop/Lab1/mylab/Catch2/= -o Catch2/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o -c /Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_main.cpp",
+  "file": "/Users/0ximio/Desktop/Lab1/mylab/Catch2/src/catch2/internal/catch_main.cpp",
+  "output": "Catch2/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o"
+}
+]

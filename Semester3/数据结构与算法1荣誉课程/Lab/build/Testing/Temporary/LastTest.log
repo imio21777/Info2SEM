@@ -1,0 +1,43 @@
+Start testing: Jan 11 23:27 CST
+----------------------------------------------------------
+1/2 Testing: test list
+1/2 Test: test list
+Command: "/Users/0ximio/Desktop/Lab1/mylab/build/TestSTL" "test list"
+Directory: /Users/0ximio/Desktop/Lab1/mylab/build
+"test list" start time: Jan 11 23:27 CST
+Output:
+----------------------------------------------------------
+Filters: "test list"
+Randomness seeded to: 3499585433
+===============================================================================
+All tests passed (36 assertions in 1 test case)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test list" end time: Jan 11 23:27 CST
+"test list" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test vector
+2/2 Test: test vector
+Command: "/Users/0ximio/Desktop/Lab1/mylab/build/TestSTL" "test vector"
+Directory: /Users/0ximio/Desktop/Lab1/mylab/build
+"test vector" start time: Jan 11 23:27 CST
+Output:
+----------------------------------------------------------
+Filters: "test vector"
+Randomness seeded to: 2604819620
+===============================================================================
+All tests passed (57 assertions in 1 test case)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test vector" end time: Jan 11 23:27 CST
+"test vector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 11 23:27 CST
