@@ -1,5 +1,0 @@
-add_test( [==[test list]==] /Users/0ximio/Desktop/lab/lab/cmake-build-debug/TestSTL [==[test list]==]  )
-set_tests_properties( [==[test list]==] PROPERTIES WORKING_DIRECTORY /Users/0ximio/Desktop/lab/lab/cmake-build-debug)
-add_test( [==[test vector]==] /Users/0ximio/Desktop/lab/lab/cmake-build-debug/TestSTL [==[test vector]==]  )
-set_tests_properties( [==[test vector]==] PROPERTIES WORKING_DIRECTORY /Users/0ximio/Desktop/lab/lab/cmake-build-debug)
-set( TestSTL_TESTS [==[test list]==] [==[test vector]==])
