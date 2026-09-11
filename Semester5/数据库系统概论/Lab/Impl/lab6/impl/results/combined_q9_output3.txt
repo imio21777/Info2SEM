@@ -1,0 +1,140 @@
+Timing is on.
+SET
+Time: 0.289 ms
+SET
+Time: 0.117 ms
+SET
+Time: 0.149 ms
+SET
+Time: 0.181 ms
+SET
+Time: 0.191 ms
+SET
+Time: 0.111 ms
+ work_mem 
+----------
+ 256MB
+(1 row)
+
+Time: 0.266 ms
+ random_page_cost 
+------------------
+ 1.1
+(1 row)
+
+Time: 0.100 ms
+ effective_cache_size 
+----------------------
+ 12GB
+(1 row)
+
+Time: 0.123 ms
+ effective_io_concurrency 
+--------------------------
+ 200
+(1 row)
+
+Time: 0.132 ms
+ max_parallel_workers_per_gather 
+---------------------------------
+ 16
+(1 row)
+
+Time: 0.123 ms
+CREATE INDEX
+Time: 0.841 ms
+CREATE INDEX
+Time: 0.310 ms
+CREATE INDEX
+Time: 0.283 ms
+CREATE INDEX
+Time: 0.297 ms
+ANALYZE
+Time: 303.004 ms
+ANALYZE
+Time: 173.168 ms
+ANALYZE
+Time: 7487.578 ms (00:07.488)
+ANALYZE
+Time: 1312.780 ms (00:01.313)
+ANALYZE
+Time: 292.257 ms
+ANALYZE
+Time: 2.052 ms
+                                                                                            QUERY PLAN                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sort  (cost=469998.81..470149.18 rows=60150 width=90) (actual time=8767.544..8769.164 rows=175 loops=1)
+   Sort Key: nation.n_name, (EXTRACT(year FROM orders.o_orderdate)) DESC
+   Sort Method: quicksort  Memory: 37kB
+   Buffers: shared hit=11959734 read=5928426 written=24
+   ->  Finalize HashAggregate  (cost=464321.77..465224.02 rows=60150 width=90) (actual time=8759.668..8768.466 rows=175 loops=1)
+         Group Key: nation.n_name, (EXTRACT(year FROM orders.o_orderdate))
+         Batches: 1  Memory Usage: 3217kB
+         Buffers: shared hit=11959734 read=5928426 written=24
+         ->  Gather  (cost=430337.02..461314.27 rows=300750 width=90) (actual time=8738.039..8757.010 rows=1050 loops=1)
+               Workers Planned: 5
+               Workers Launched: 5
+               Buffers: shared hit=11959734 read=5928426 written=24
+               ->  Partial HashAggregate  (cost=429337.02..430239.27 rows=60150 width=90) (actual time=8692.517..8698.765 rows=175 loops=6)
+                     Group Key: nation.n_name, EXTRACT(year FROM orders.o_orderdate)
+                     Batches: 1  Memory Usage: 3217kB
+                     Buffers: shared hit=11959734 read=5928426 written=24
+                     Worker 0:  Batches: 1  Memory Usage: 3217kB
+                     Worker 1:  Batches: 1  Memory Usage: 3217kB
+                     Worker 2:  Batches: 1  Memory Usage: 3217kB
+                     Worker 3:  Batches: 1  Memory Usage: 3217kB
+                     Worker 4:  Batches: 1  Memory Usage: 3217kB
+                     ->  Hash Join  (cost=3590.97..418733.65 rows=605907 width=81) (actual time=25.362..7919.278 rows=543602 loops=6)
+                           Hash Cond: (supplier.s_nationkey = nation.n_nationkey)
+                           Buffers: shared hit=11959734 read=5928426 written=24
+                           ->  Nested Loop  (cost=3589.41..415357.18 rows=605907 width=31) (actual time=25.224..7648.504 rows=543602 loops=6)
+                                 Buffers: shared hit=11959713 read=5928426 written=24
+                                 ->  Parallel Hash Join  (cost=3588.96..161453.97 rows=605907 width=31) (actual time=25.129..1252.928 rows=543602 loops=6)
+                                       Hash Cond: (lineitem.l_suppkey = supplier.s_suppkey)
+                                       Buffers: shared hit=4883007 read=191303
+                                       ->  Nested Loop  (cost=1.42..156275.86 rows=605907 width=35) (actual time=0.319..1002.935 rows=543602 loops=6)
+                                             Buffers: shared hit=4882975 read=189071
+                                             ->  Nested Loop  (cost=0.86..88197.39 rows=80820 width=18) (actual time=0.267..265.344 rows=72521 loops=6)
+                                                   Buffers: shared hit=303243 read=77200
+                                                   ->  Parallel Index Scan using part_pkey on part  (cost=0.43..62025.96 rows=20199 width=4) (actual time=0.097..144.585 rows=18130 loops=6)
+                                                         Filter: ((p_name)::text ~~ '%green%'::text)
+                                                         Rows Removed by Filter: 315203
+                                                         Buffers: shared hit=5559 read=47191
+                                                   ->  Index Only Scan using idx_partsupp_q9_cover on partsupp  (cost=0.43..1.11 rows=19 width=14) (actual time=0.004..0.005 rows=4 loops=108782)
+                                                         Index Cond: (ps_partkey = part.p_partkey)
+                                                         Heap Fetches: 0
+                                                         Buffers: shared hit=297684 read=30009
+                                             ->  Index Only Scan using idx_lineitem_q9_cover on lineitem  (cost=0.56..0.83 rows=1 width=29) (actual time=0.004..0.008 rows=7 loops=435128)
+                                                   Index Cond: ((l_partkey = partsupp.ps_partkey) AND (l_suppkey = partsupp.ps_suppkey))
+                                                   Heap Fetches: 0
+                                                   Buffers: shared hit=4579732 read=111871
+                                       ->  Parallel Hash  (cost=2852.24..2852.24 rows=58824 width=8) (actual time=23.271..23.272 rows=16667 loops=6)
+                                             Buckets: 131072  Batches: 1  Memory Usage: 5024kB
+                                             Buffers: shared hit=32 read=2232
+                                             ->  Parallel Seq Scan on supplier  (cost=0.00..2852.24 rows=58824 width=8) (actual time=0.021..7.683 rows=16667 loops=6)
+                                                   Buffers: shared hit=32 read=2232
+                                 ->  Memoize  (cost=0.45..0.56 rows=1 width=8) (actual time=0.011..0.011 rows=1 loops=3261613)
+                                       Cache Key: lineitem.l_orderkey
+                                       Cache Mode: logical
+                                       Hits: 9606  Misses: 529256  Evictions: 0  Overflows: 0  Memory Usage: 55820kB
+                                       Buffers: shared hit=7076706 read=5737123 written=24
+                                       Worker 0:  Hits: 9947  Misses: 539398  Evictions: 0  Overflows: 0  Memory Usage: 56890kB
+                                       Worker 1:  Hits: 9680  Misses: 535504  Evictions: 0  Overflows: 0  Memory Usage: 56479kB
+                                       Worker 2:  Hits: 9145  Misses: 523818  Evictions: 0  Overflows: 0  Memory Usage: 55247kB
+                                       Worker 3:  Hits: 10082  Misses: 543500  Evictions: 0  Overflows: 0  Memory Usage: 57323kB
+                                       Worker 4:  Hits: 9697  Misses: 531980  Evictions: 0  Overflows: 0  Memory Usage: 56108kB
+                                       ->  Index Scan using orders_pkey on orders  (cost=0.43..0.55 rows=1 width=8) (actual time=0.009..0.009 rows=1 loops=3203456)
+                                             Index Cond: (o_orderkey = lineitem.l_orderkey)
+                                             Buffers: shared hit=7076706 read=5737123 written=24
+                           ->  Hash  (cost=1.25..1.25 rows=25 width=30) (actual time=0.061..0.061 rows=25 loops=6)
+                                 Buckets: 1024  Batches: 1  Memory Usage: 10kB
+                                 Buffers: shared hit=6
+                                 ->  Seq Scan on nation  (cost=0.00..1.25 rows=25 width=30) (actual time=0.019..0.022 rows=25 loops=6)
+                                       Buffers: shared hit=6
+ Planning:
+   Buffers: shared hit=296 read=43
+ Planning Time: 4.077 ms
+ Execution Time: 8778.254 ms
+(72 rows)
+
+Time: 8789.635 ms (00:08.790)

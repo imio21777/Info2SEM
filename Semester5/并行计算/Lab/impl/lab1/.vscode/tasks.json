@@ -1,0 +1,49 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile: C++ with Clang & OpenMP",
+      "type": "shell",
+      "command": "/opt/homebrew/opt/llvm/bin/clang++",
+      "args": [
+        "-g",
+        "-fopenmp",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "detail": "使用 clang++ 和 -fopenmp 编译当前 C++ 文件。请在需要 OpenMP 的文件夹下的文件上运行此任务。"
+    },
+    {
+      "label": "Compile: C++ with clang++ (Default)",
+      "type": "shell",
+      "command": "clang++",
+      "args": [
+        "-g",
+        "-std=c++23",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "使用 clang++ (C++23) 编译当前 C++ 文件。这是默认的构建命令。"
+    }
+  ]
+}

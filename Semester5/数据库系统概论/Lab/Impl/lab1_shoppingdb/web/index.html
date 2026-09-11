@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商城库存管理系统 - 可视化界面</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>商城库存管理系统</h1>
+            <div class="refresh-btn" onclick="refreshData()">
+                <span>🔄</span> 刷新数据
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- 统计卡片区域 -->
+            <section class="stats-cards">
+                <div class="stat-card">
+                    <div class="stat-icon">📦</div>
+                    <div class="stat-info">
+                        <h3 id="total-products">0</h3>
+                        <p>商品种类</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-info">
+                        <h3 id="total-stock">0</h3>
+                        <p>总库存量</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💰</div>
+                    <div class="stat-info">
+                        <h3 id="total-value">¥0</h3>
+                        <p>库存总值</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📈</div>
+                    <div class="stat-info">
+                        <h3 id="total-transactions">0</h3>
+                        <p>总交易数</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 主要内容区域 -->
+            <div class="content-grid">
+                <!-- 商品分类展示 -->
+                <section class="card">
+                    <h2>商品分类概览</h2>
+                    <div id="category-overview" class="category-grid"></div>
+                </section>
+
+                <!-- 库存状态图表 -->
+                <section class="card">
+                    <h2>库存状态分析</h2>
+                    <canvas id="stockChart" width="400" height="200"></canvas>
+                </section>
+
+                <!-- 销量趋势图表 -->
+                <section class="card">
+                    <h2>销量趋势</h2>
+                    <canvas id="salesChart" width="400" height="200"></canvas>
+                </section>
+
+                <!-- 交易记录 -->
+                <section class="card">
+                    <h2>最近交易记录</h2>
+                    <div class="transaction-filter">
+                        <select id="transaction-filter">
+                            <option value="all">全部交易</option>
+                            <option value="销售">销售记录</option>
+                            <option value="进货">进货记录</option>
+                        </select>
+                    </div>
+                    <div id="transaction-list" class="transaction-list"></div>
+                </section>
+
+                <!-- 商品详情表格 -->
+                <section class="card full-width">
+                    <h2>商品详情</h2>
+                    <div class="table-container">
+                        <table id="products-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>商品名称</th>
+                                    <th>类别</th>
+                                    <th>单价</th>
+                                    <th>库存</th>
+                                    <th>库存状态</th>
+                                </tr>
+                            </thead>
+                            <tbody id="products-tbody"></tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <p>加载数据中...</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

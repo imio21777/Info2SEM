@@ -1,0 +1,97 @@
+psql -p 5432 -U leap -d tpchdb
+\copy region from '/home/leap/TPC-H/dbgen/tbl/region.tbl' with delimiter as '|' NULL '';
+\copy nation from '/home/leap/TPC-H/dbgen/tbl/nation.tbl' with delimiter as '|' NULL '';
+\copy partsupp from '/home/leap/TPC-H/dbgen/tbl/partsupp.tbl' with delimiter as '|' NULL '';
+\copy customer from '/home/leap/TPC-H/dbgen/tbl/customer.tbl' with delimiter as '|' NULL '';
+\copy lineitem from '/home/leap/TPC-H/dbgen/tbl/lineitem.tbl' with delimiter as '|' NULL '';
+\copy orders from '/home/leap/TPC-H/dbgen/tbl/orders.tbl' with delimiter as '|' NULL '';
+\copy part from '/home/leap/TPC-H/dbgen/tbl/part.tbl' with delimiter as '|' NULL '';
+\copy supplier from '/home/leap/TPC-H/dbgen/tbl/supplier.tbl' with delimiter as '|' NULL '';
+
+psql -p 5432 -U leap -d tpchdb -f ./d1.sql
+
+# 既能在屏幕上看到 Timing，也能自动保存到文件
+psql -U leap -d tpchdb -f impl/analysis_q5.sql | tee impl/analysis_q5_output.txt
+
+-- For table REGION
+ALTER TABLE REGION
+ADD PRIMARY KEY (R_REGIONKEY);
+ 
+-- For table NATION
+ALTER TABLE NATION
+ADD PRIMARY KEY (N_NATIONKEY);
+ 
+ALTER TABLE NATION
+ADD FOREIGN KEY (N_REGIONKEY) references REGION;
+ 
+COMMIT WORK;
+ 
+-- For table PART
+ALTER TABLE PART
+ADD PRIMARY KEY (P_PARTKEY);
+ 
+COMMIT WORK;
+ 
+-- For table SUPPLIER
+ALTER TABLE SUPPLIER
+ADD PRIMARY KEY (S_SUPPKEY);
+ 
+ALTER TABLE SUPPLIER
+ADD FOREIGN KEY (S_NATIONKEY) references NATION;
+ 
+COMMIT WORK;
+ 
+-- For table PARTSUPP
+ALTER TABLE PARTSUPP
+ADD PRIMARY KEY (PS_PARTKEY,PS_SUPPKEY);
+ 
+COMMIT WORK;
+ 
+-- For table CUSTOMER
+ALTER TABLE CUSTOMER
+ADD PRIMARY KEY (C_CUSTKEY);
+ 
+ALTER TABLE CUSTOMER
+ADD FOREIGN KEY (C_NATIONKEY) references NATION;
+ 
+COMMIT WORK;
+ 
+-- For table LINEITEM
+ALTER TABLE LINEITEM
+ADD PRIMARY KEY (L_ORDERKEY,L_LINENUMBER);
+ 
+COMMIT WORK;
+ 
+-- For table ORDERS
+ALTER TABLE ORDERS
+ADD PRIMARY KEY (O_ORDERKEY);
+ 
+COMMIT WORK;
+ 
+-- For table PARTSUPP
+ALTER TABLE PARTSUPP
+ADD FOREIGN KEY (PS_SUPPKEY) references SUPPLIER;
+ 
+COMMIT WORK;
+ 
+ALTER TABLE PARTSUPP
+ADD FOREIGN KEY (PS_PARTKEY) references PART;
+ 
+COMMIT WORK;
+ 
+-- For table ORDERS
+ALTER TABLE ORDERS
+ADD FOREIGN KEY (O_CUSTKEY) references CUSTOMER;
+ 
+COMMIT WORK;
+ 
+-- For table LINEITEM
+ALTER TABLE LINEITEM
+ADD FOREIGN KEY (L_ORDERKEY)  references ORDERS;
+ 
+COMMIT WORK;
+ 
+ALTER TABLE LINEITEM
+ADD FOREIGN KEY (L_PARTKEY,L_SUPPKEY) references PARTSUPP;
+ 
+COMMIT WORK;

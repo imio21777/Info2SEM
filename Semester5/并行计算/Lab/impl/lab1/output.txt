@@ -1,0 +1,101 @@
+======================================================================
+        Matrix Calculation (C = aAB + bC) Performance Test 
+======================================================================
+Running with 8 OpenMP threads.
+----------------------------------------------------------------------
+Testing Matrix Size: 256 x 256
+Verification PASSED!
+  Serial -> Time: 0.027764 s | GFLOPS: 0.033817 | GFLOPS/s: 1.218022
+  OpenMP -> Time: 0.007188 s | GFLOPS: 0.033817 | GFLOPS/s: 4.704643
+  Speedup: 3.86x
+----------------------------------------------------------------------
+Testing Matrix Size: 512 x 512
+Verification PASSED!
+  Serial -> Time: 0.214772 s | GFLOPS: 0.269484 | GFLOPS/s: 1.254744
+  OpenMP -> Time: 0.060866 s | GFLOPS: 0.269484 | GFLOPS/s: 4.427504
+  Speedup: 3.53x
+----------------------------------------------------------------------
+Testing Matrix Size: 1024 x 1024
+Verification PASSED!
+  Serial -> Time: 1.996652 s | GFLOPS: 2.151678 | GFLOPS/s: 1.077643
+  OpenMP -> Time: 0.578129 s | GFLOPS: 2.151678 | GFLOPS/s: 3.721797
+  Speedup: 3.45x
+----------------------------------------------------------------------
+Testing Matrix Size: 2048 x 2048
+Verification PASSED!
+  Serial -> Time: 31.316174 s | GFLOPS: 17.196646 | GFLOPS/s: 0.549130
+  OpenMP -> Time: 8.566214 s | GFLOPS: 17.196646 | GFLOPS/s: 2.007497
+  Speedup: 3.66x
+----------------------------------------------------------------------
+
+======================================================================
+        Matrix Calculation (C = aAB + bC) Performance Test 
+======================================================================
+Running with 8 OpenMP threads.
+----------------------------------------------------------------------
+Testing Matrix Size: 256 x 256
+Verification PASSED!
+  Serial -> Time: 0.025749 s | GFLOPS: 0.033817 | GFLOPS/s: 1.313310
+  OpenMP -> Time: 0.008493 s | GFLOPS: 0.033817 | GFLOPS/s: 3.981747
+  Speedup: 3.03x
+----------------------------------------------------------------------
+Testing Matrix Size: 512 x 512
+Verification PASSED!
+  Serial -> Time: 0.215313 s | GFLOPS: 0.269484 | GFLOPS/s: 1.251591
+  OpenMP -> Time: 0.079741 s | GFLOPS: 0.269484 | GFLOPS/s: 3.379509
+  Speedup: 2.70x
+----------------------------------------------------------------------
+Testing Matrix Size: 1024 x 1024
+Verification PASSED!
+  Serial -> Time: 1.984980 s | GFLOPS: 2.151678 | GFLOPS/s: 1.083980
+  OpenMP -> Time: 0.548359 s | GFLOPS: 2.151678 | GFLOPS/s: 3.923846
+  Speedup: 3.62x
+----------------------------------------------------------------------
+Testing Matrix Size: 2048 x 2048
+Verification PASSED!
+  Serial -> Time: 31.824605 s | GFLOPS: 17.196646 | GFLOPS/s: 0.540357
+  OpenMP -> Time: 9.000228 s | GFLOPS: 17.196646 | GFLOPS/s: 1.910690
+  Speedup: 3.54x
+----------------------------------------------------------------------
+
+
+GFLOPS/s=5.041021
+GFLOPS=1.026560
+time(s)=0.203641
+
+
+======================================================================
+        Matrix Calculation (C = aAB + bC) Performance Test 
+======================================================================
+Running with 8 OpenMP threads.
+----------------------------------------------------------------------
+Testing Matrix Size: 256 x 256
+Verification PASSED!
+  Serial -> Time: 0.029740 s | GFLOPS: 0.033751 | GFLOPS/s: 1.134858
+  OpenMP -> Time: 0.007135 s | GFLOPS: 0.033751 | GFLOPS/s: 4.730485
+  Speedup: 4.17x
+----------------------------------------------------------------------
+Testing Matrix Size: 512 x 512
+Verification PASSED!
+  Serial -> Time: 0.202531 s | GFLOPS: 0.269222 | GFLOPS/s: 1.329287
+  OpenMP -> Time: 0.052502 s | GFLOPS: 0.269222 | GFLOPS/s: 5.127809
+  Speedup: 3.86x
+----------------------------------------------------------------------
+Testing Matrix Size: 800 x 800
+Verification PASSED!
+  Serial -> Time: 0.691536 s | GFLOPS: 1.025920 | GFLOPS/s: 1.483538
+  OpenMP -> Time: 0.173808 s | GFLOPS: 1.025920 | GFLOPS/s: 5.902602
+  Speedup: 3.98x
+----------------------------------------------------------------------
+Testing Matrix Size: 1024 x 1024
+Verification PASSED!
+  Serial -> Time: 1.876461 s | GFLOPS: 2.150629 | GFLOPS/s: 1.146109
+  OpenMP -> Time: 0.463296 s | GFLOPS: 2.150629 | GFLOPS/s: 4.642022
+  Speedup: 4.05x
+----------------------------------------------------------------------
+Testing Matrix Size: 2048 x 2048
+Verification PASSED!
+  Serial -> Time: 26.175838 s | GFLOPS: 17.192452 | GFLOPS/s: 0.656806
+  OpenMP -> Time: 6.733816 s | GFLOPS: 17.192452 | GFLOPS/s: 2.553152
+  Speedup: 3.89x
+----------------------------------------------------------------------

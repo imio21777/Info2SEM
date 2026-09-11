@@ -1,0 +1,121 @@
+Timing is on.
+                                                                               QUERY PLAN                                                                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sort  (cost=2065528.51..2065528.57 rows=25 width=58)
+   Sort Key: (sum((lineitem.l_extendedprice * ('1'::numeric - lineitem.l_discount)))) DESC
+   ->  Finalize GroupAggregate  (cost=2065137.97..2065527.93 rows=25 width=58)
+         Group Key: nation.n_name
+         ->  Gather Merge  (cost=2065137.97..2065527.24 rows=50 width=58)
+               Workers Planned: 2
+               ->  Partial GroupAggregate  (cost=2064137.95..2064521.45 rows=25 width=58)
+                     Group Key: nation.n_name
+                     ->  Sort  (cost=2064137.95..2064214.59 rows=30655 width=38)
+                           Sort Key: nation.n_name
+                           ->  Parallel Hash Join  (cost=428204.99..2061853.56 rows=30655 width=38)
+                                 Hash Cond: ((orders.o_custkey = customer.c_custkey) AND (supplier.s_nationkey = customer.c_nationkey))
+                                 ->  Parallel Hash Join  (cost=374155.43..1986373.17 rows=766255 width=50)
+                                       Hash Cond: (lineitem.l_orderkey = orders.o_orderkey)
+                                       ->  Parallel Hash Join  (cost=3340.05..1501474.98 rows=4979354 width=50)
+                                             Hash Cond: (lineitem.l_suppkey = supplier.s_suppkey)
+                                             ->  Parallel Seq Scan on lineitem  (cost=0.00..1375107.55 rows=24996355 width=20)
+                                             ->  Parallel Hash  (cost=3192.98..3192.98 rows=11765 width=38)
+                                                   ->  Hash Join  (cost=2.51..3192.98 rows=11765 width=38)
+                                                         Hash Cond: (supplier.s_nationkey = nation.n_nationkey)
+                                                         ->  Parallel Seq Scan on supplier  (cost=0.00..2852.24 rows=58824 width=8)
+                                                         ->  Hash  (cost=2.45..2.45 rows=5 width=30)
+                                                               ->  Hash Join  (cost=1.07..2.45 rows=5 width=30)
+                                                                     Hash Cond: (nation.n_regionkey = region.r_regionkey)
+                                                                     ->  Seq Scan on nation  (cost=0.00..1.25 rows=25 width=34)
+                                                                     ->  Hash  (cost=1.06..1.06 rows=1 width=4)
+                                                                           ->  Seq Scan on region  (cost=0.00..1.06 rows=1 width=4)
+                                                                                 Filter: (r_name = 'ASIA'::bpchar)
+                                       ->  Parallel Hash  (cost=355033.54..355033.54 rows=961908 width=8)
+                                             ->  Parallel Seq Scan on orders  (cost=0.00..355033.54 rows=961908 width=8)
+                                                   Filter: ((o_orderdate >= '1994-01-01'::date) AND (o_orderdate < '1995-01-01 00:00:00'::timestamp without time zone))
+                                 ->  Parallel Hash  (cost=42233.43..42233.43 rows=624942 width=8)
+                                       ->  Parallel Seq Scan on customer  (cost=0.00..42233.43 rows=624942 width=8)
+ JIT:
+   Functions: 57
+   Options: Inlining true, Optimization true, Expressions true, Deforming true
+(36 rows)
+
+Time: 249.721 ms
+                                                                                     QUERY PLAN                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sort  (cost=2065528.51..2065528.57 rows=25 width=58) (actual time=55688.768..55930.444 rows=5 loops=1)
+   Sort Key: (sum((lineitem.l_extendedprice * ('1'::numeric - lineitem.l_discount)))) DESC
+   Sort Method: quicksort  Memory: 25kB
+   Buffers: shared hit=7954 read=1416853, temp read=139141 written=139396
+   ->  Finalize GroupAggregate  (cost=2065137.97..2065527.93 rows=25 width=58) (actual time=55683.462..55929.784 rows=5 loops=1)
+         Group Key: nation.n_name
+         Buffers: shared hit=7951 read=1416853, temp read=139141 written=139396
+         ->  Gather Merge  (cost=2065137.97..2065527.24 rows=50 width=58) (actual time=55679.634..55927.631 rows=15 loops=1)
+               Workers Planned: 2
+               Workers Launched: 2
+               Buffers: shared hit=7951 read=1416853, temp read=139141 written=139396
+               ->  Partial GroupAggregate  (cost=2064137.95..2064521.45 rows=25 width=58) (actual time=55637.028..55643.390 rows=5 loops=3)
+                     Group Key: nation.n_name
+                     Buffers: shared hit=7951 read=1416853, temp read=139141 written=139396
+                     ->  Sort  (cost=2064137.95..2064214.59 rows=30655 width=38) (actual time=55634.840..55636.556 rows=24328 loops=3)
+                           Sort Key: nation.n_name
+                           Sort Method: quicksort  Memory: 2434kB
+                           Buffers: shared hit=7951 read=1416853, temp read=139141 written=139396
+                           Worker 0:  Sort Method: quicksort  Memory: 2136kB
+                           Worker 1:  Sort Method: quicksort  Memory: 2297kB
+                           ->  Parallel Hash Join  (cost=428204.99..2061853.56 rows=30655 width=38) (actual time=55361.562..55613.743 rows=24328 loops=3)
+                                 Hash Cond: ((orders.o_custkey = customer.c_custkey) AND (supplier.s_nationkey = customer.c_nationkey))
+                                 Buffers: shared hit=7839 read=1416853, temp read=139141 written=139396
+                                 ->  Parallel Hash Join  (cost=374155.43..1986373.17 rows=766255 width=50) (actual time=52484.685..53869.622 rows=608347 loops=3)
+                                       Hash Cond: (lineitem.l_orderkey = orders.o_orderkey)
+                                       Buffers: shared hit=6152 read=1382534, temp read=117553 written=117680
+                                       ->  Parallel Hash Join  (cost=3340.05..1501474.98 rows=4979354 width=50) (actual time=88.199..46689.460 rows=4007022 loops=3)
+                                             Hash Cond: (lineitem.l_suppkey = supplier.s_suppkey)
+                                             Buffers: shared hit=4191 read=1123223
+                                             ->  Parallel Seq Scan on lineitem  (cost=0.00..1375107.55 rows=24996355 width=20) (actual time=0.627..42014.885 rows=19995351 loops=3)
+                                                   Buffers: shared hit=1921 read=1123223
+                                             ->  Parallel Hash  (cost=3192.98..3192.98 rows=11765 width=38) (actual time=87.442..87.805 rows=6679 loops=3)
+                                                   Buckets: 32768  Batches: 1  Memory Usage: 1696kB
+                                                   Buffers: shared hit=2270
+                                                   ->  Hash Join  (cost=2.51..3192.98 rows=11765 width=38) (actual time=0.170..84.621 rows=6679 loops=3)
+                                                         Hash Cond: (supplier.s_nationkey = nation.n_nationkey)
+                                                         Buffers: shared hit=2270
+                                                         ->  Parallel Seq Scan on supplier  (cost=0.00..2852.24 rows=58824 width=8) (actual time=0.081..59.731 rows=33333 loops=3)
+                                                               Buffers: shared hit=2264
+                                                         ->  Hash  (cost=2.45..2.45 rows=5 width=30) (actual time=0.058..0.267 rows=5 loops=3)
+                                                               Buckets: 1024  Batches: 1  Memory Usage: 9kB
+                                                               Buffers: shared hit=6
+                                                               ->  Hash Join  (cost=1.07..2.45 rows=5 width=30) (actual time=0.053..0.203 rows=5 loops=3)
+                                                                     Hash Cond: (nation.n_regionkey = region.r_regionkey)
+                                                                     Buffers: shared hit=6
+                                                                     ->  Seq Scan on nation  (cost=0.00..1.25 rows=25 width=34) (actual time=0.016..0.025 rows=25 loops=3)
+                                                                           Buffers: shared hit=3
+                                                                     ->  Hash  (cost=1.06..1.06 rows=1 width=4) (actual time=0.029..0.092 rows=1 loops=3)
+                                                                           Buckets: 1024  Batches: 1  Memory Usage: 9kB
+                                                                           Buffers: shared hit=3
+                                                                           ->  Seq Scan on region  (cost=0.00..1.06 rows=1 width=4) (actual time=0.025..0.034 rows=1 loops=3)
+                                                                                 Filter: (r_name = 'ASIA'::bpchar)
+                                                                                 Rows Removed by Filter: 4
+                                                                                 Buffers: shared hit=3
+                                       ->  Parallel Hash  (cost=355033.54..355033.54 rows=961908 width=8) (actual time=3568.794..3568.821 rows=758640 loops=3)
+                                             Buckets: 262144  Batches: 16  Memory Usage: 7680kB
+                                             Buffers: shared hit=1961 read=259311, temp written=7372
+                                             ->  Parallel Seq Scan on orders  (cost=0.00..355033.54 rows=961908 width=8) (actual time=0.673..3383.220 rows=758640 loops=3)
+                                                   Filter: ((o_orderdate >= '1994-01-01'::date) AND (o_orderdate < '1995-01-01 00:00:00'::timestamp without time zone))
+                                                   Rows Removed by Filter: 4241360
+                                                   Buffers: shared hit=1961 read=259311
+                                 ->  Parallel Hash  (cost=42233.43..42233.43 rows=624942 width=8) (actual time=1053.419..1053.433 rows=500000 loops=3)
+                                       Buckets: 262144  Batches: 16  Memory Usage: 5760kB
+                                       Buffers: shared hit=1665 read=34319, temp written=4892
+                                       ->  Parallel Seq Scan on customer  (cost=0.00..42233.43 rows=624942 width=8) (actual time=416.846..951.561 rows=500000 loops=3)
+                                             Buffers: shared hit=1665 read=34319
+ Planning:
+   Buffers: shared hit=44
+ Planning Time: 0.774 ms
+ JIT:
+   Functions: 165
+   Options: Inlining true, Optimization true, Expressions true, Deforming true
+   Timing: Generation 8.066 ms, Inlining 328.053 ms, Optimization 525.387 ms, Emission 405.097 ms, Total 1266.602 ms
+ Execution Time: 55936.639 ms
+(74 rows)
+
+Time: 55957.234 ms (00:55.957)

@@ -1,0 +1,7 @@
+{
+  // (可选) 为了避免混淆，你可以在工作区明确指定默认的 C++ 命令
+  "code-runner.executorMap": {
+      "cpp": "cd $dir && /opt/homebrew/opt/llvm/bin/clang++ -g -fopenmp -std=c++23 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
+      "c": "cd $dir && /opt/homebrew/opt/llvm/bin/clang -g -fopenmp -std=c23 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+  }
+}

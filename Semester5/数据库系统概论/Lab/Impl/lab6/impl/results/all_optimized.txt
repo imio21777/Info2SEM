@@ -1,0 +1,27 @@
+=== SQL Execution Summary ===
+Query d1.sql    : 14.234136 seconds
+Query d2.sql    : 5.158898 seconds
+Query d3.sql    : 39.672429 seconds
+Query d4.sql    : 38.059308 seconds
+Query d5.sql    : 16.578713 seconds
+Query d6.sql    : 36.655463 seconds
+Query d7.sql    : 62.989494 seconds
+Query d8.sql    : 11.136590 seconds
+Query d9.sql    : 11.910765 seconds
+Query d10.sql   : 38.282987 seconds
+Query d11.sql   : 6.160415 seconds
+Query d12.sql   : 98.091373 seconds
+Query d13.sql   : 31.588269 seconds
+Query d14.sql   : 241.944314 seconds
+Query d15.sql   : 16.066582 seconds
+Query d16.sql   : 8.531771 seconds
+Query d17.sql   : 2.824582 seconds
+Query d18.sql   : 284.231160 seconds
+Query d19.sql   : 10.538403 seconds
+Query d20.sql   : 99.933890 seconds
+Query d21.sql   : 87.697110 seconds
+Query d22.sql   : 17.887374 seconds
+
+Total Execution Time for Queries: 1180.174025 seconds
+Script Total Time (including overhead): 1180.236700 seconds
+=== Benchmark Completed ===

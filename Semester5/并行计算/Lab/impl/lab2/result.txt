@@ -1,0 +1,38 @@
+Starting OpenMP scheduling experiment...
+Problem size N = 729, Repetitions = 100
+Using up to 8 threads.
+
+--- Testing Loop 1 (Decreasing Workload) ---
+Loop 1 check: Sum of a is -34302.147477
+Total time for 100 reps of schedule(static) loop 1 = 0.039300
+Loop 1 check: Sum of a is -34302.147477
+Total time for 100 reps of schedule(dynamic) loop 1 = 0.024875
+Loop 1 check: Sum of a is -34302.147477
+Total time for 100 reps of schedule(guided) loop 1 = 0.026995
+--- Testing Loop 2 (Irregular Workload) ---
+Loop 2 check: Sum of c is -2524264.460320
+Total time for 100 reps of schedule(static) loop 2 = 3.405511
+Loop 2 check: Sum of c is -2524264.460320
+Total time for 100 reps of schedule(dynamic) loop 2 = 1.225683
+Loop 2 check: Sum of c is -2524264.460320
+Total time for 100 reps of schedule(guided) loop 2 = 2.805917
+
+
+Starting OpenMP scheduling experiment...
+Problem size N = 729, Repetitions = 100
+Using up to 8 threads.
+
+--- Testing Loop 1 (Decreasing Workload) ---
+Loop 1 check: Sum of a is -34302.147477
+Total time for 100 reps of schedule(static) loop 1 = 0.033368
+Loop 1 check: Sum of a is -34302.147477
+Total time for 100 reps of schedule(dynamic) loop 1 = 0.024907
+Loop 1 check: Sum of a is -34302.147477
+Total time for 100 reps of schedule(guided) loop 1 = 0.025171
+--- Testing Loop 2 (Irregular Workload) ---
+Loop 2 check: Sum of c is -2524264.460320
+Total time for 100 reps of schedule(static) loop 2 = 3.494996
+Loop 2 check: Sum of c is -2524264.460320
+Total time for 100 reps of schedule(dynamic) loop 2 = 1.248244
+Loop 2 check: Sum of c is -2524264.460320
+Total time for 100 reps of schedule(guided) loop 2 = 2.851354
